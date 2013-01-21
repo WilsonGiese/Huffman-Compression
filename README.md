@@ -1,3 +1,6 @@
+Huffman-Compression
+===================
+
 Author: Wilson Giese - giese.wilson@gmail.com
 
 ###About: 
