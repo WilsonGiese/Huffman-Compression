@@ -23,8 +23,8 @@ in a compressed file, and create a decompressed file.
 
 ### Usage examples: 	
 
-	java -cp HCompress.jar Huffman -c -v -f path/To/InputFile   path/To//EncodedFile
-	java -cp HCompress.jar Huffman -u -v    path/To/EncodedFile path/To//DecodedFile
+	java -cp HCompress.jar Huffman -c -v -f path/To/InputFile   path/To/EncodedFile
+	java -cp HCompress.jar Huffman -u -v    path/To/EncodedFile path/To/DecodedFile
 	
 
 ### Unbuffered/Buffered time comparisons: 
