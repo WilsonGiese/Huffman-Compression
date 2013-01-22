@@ -12,8 +12,8 @@ in a compressed file, and create a decompressed file.
 
 ### Usage info: 
 	
-	-c Compress
-	-u Uncompress
+	-c  Compress
+	-u  Uncompress
 	-v* Verbose; Prints a table with frequency and codes for each ascii in the 
 	    file(-c only), and a visual representation of the Huffman Tree. 
 	-f* Force; Forces compression even if the encoded file will be larger than 
