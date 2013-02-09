@@ -12,9 +12,12 @@ public class Huffman {
 	
 	private static void printUsageExample() { 
 		System.out.println("Warning: Missing arguments " + "\n\n" + 
-				   "FLAGS:\n-c compress or -u uncompress\n-v verbose\n-f force\n\n" + 
-				   "Usage example: java Huffman (-c|-u) [-v]* [-f]* inputFile outputFile" + 
-				   "\n" + "* = optional flag"); 
+				  		   "FLAGS:\n" + 
+				   		   "-c compress or -u uncompress\n" + 
+				  		   "-v verbose\n" + 
+				   	       "-f force\n\n" + 
+				           "Usage example: java Huffman (-c|-u) [-v]* [-f]* inputFile outputFile\n" + 
+				           "* = optional flag"); 
 	}
 	
 	public static void main(String[] args) {
@@ -22,7 +25,7 @@ public class Huffman {
 			printUsageExample(); 
 		} else {
 			String iFile = args[args.length - 2]; //Input and output files
-			String oFile = args[args.length - 1]; //Will always be the last two.
+			String oFile = args[args.length - 1]; //Will always be the last two args.
 			if(checkForFlag(args, "-c")) {
 				long start = System.currentTimeMillis(); 
 				Encode e = new Encode(iFile, oFile); 
