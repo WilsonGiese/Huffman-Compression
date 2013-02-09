@@ -109,7 +109,7 @@ public class Encode {
 	}
 	
 	/* Checks encoded file size before compressing to avoid
-	 * compressing the file if it will be larger. This can happens
+	 * compressing the file if it will be larger. This can happen
 	 * if the tree is very balanced. 
 	 */
 	public boolean checkEncodedFileSize() {
@@ -132,7 +132,7 @@ public class Encode {
 		return false; 
 	}
 	
-	/* Prints a code for frequency table for each char present in the file. */ 
+	/* Prints a frequency table of bitcodes for each char present in the file. */ 
 	public void printCodes() { 
 		System.out.println("+-----+---------+-------------------------+");
 		System.out.format("|%5s|%9s|%25s|", "Ascii", "Freq.", "Bit Codes");
