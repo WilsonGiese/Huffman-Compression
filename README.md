@@ -31,7 +31,7 @@ in a compressed file, and create a decompressed file.
 
 Test System: 2.66 GHz Intel Core i7 with 8GB 1067 MHz DDR3
 
-	Unbuffered Test on 4940645b file: 
+	Unbuffered Test on 4940645B file: 
 	COMPRESS:           DECOMPRESS:  
 	[1] 5008ms          [1] 2693ms
 	[2] 5133ms          [2] 2694ms
@@ -39,14 +39,14 @@ Test System: 2.66 GHz Intel Core i7 with 8GB 1067 MHz DDR3
 	[4] 5168ms          [4] 2719ms
 	[5] 5335ms          [5] 2777ms
 
-	Buffered Test on 4940645b file: BUFFER_SIZE = 4096b
+	Buffered Test on 4940645B file: BUFFER_SIZE = 4096B
 	[1] 472ms           [1] 332ms
 	[2] 462ms           [2] 293ms
 	[3] 459ms           [3] 304ms
 	[4] 462ms           [4] 327ms	
 	[5] 457ms           [5] 302ms
 
-	Buffered Test on 4940645b file: BUFFER_SIZE = 2048b
+	Buffered Test on 4940645B file: BUFFER_SIZE = 2048B
 	[1] 466ms           [1] 315ms
 	[2] 463ms           [2] 364ms
 	[3] 465ms           [3] 355ms	
