@@ -3,14 +3,10 @@ Huffman-Compression
 
 Author: Wilson Giese - giese.wilson@gmail.com
 
-###About: 
-This program has two functions: Compressing a file, and decompressing a 
-previously compressed file. It will take in two files(any file type), 
-compressing the first file and outputting the second file, or, it will take 
-in a compressed file, and create a decompressed file. 
+###About
+A compression program that uses [Huffman Coding](http://en.wikipedia.org/wiki/Huffman_coding) to compress a given file. It will also decompress the files that were compressed with this algorithm. However, this program will not compress a file if the result is larger than the original, unless forced otherwise. Very small files, or files with well distributed characters will usually be smaller than the compressed file. 
 
-
-### Usage info: 
+### Usage info 
 	
 	-c  Compress
 	-u  Uncompress
@@ -21,13 +17,13 @@ in a compressed file, and create a decompressed file.
 
 	* optional flag
 
-### Usage examples: 	
+### Usage examples 	
 
 	java -cp HCompress.jar Huffman -c -v -f path/To/InputFile   path/To/EncodedFile
 	java -cp HCompress.jar Huffman -u -v    path/To/EncodedFile path/To/DecodedFile
 	
 
-### Unbuffered/Buffered time comparisons: 
+### Unbuffered/Buffered time comparisons 
 
 Test System: 2.66 GHz Intel Core i7 with 8GB 1067 MHz DDR3
 
